@@ -1,0 +1,67 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.*.local
+.env.production
+
+!.env.example
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+*.swn
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Coverage reports
+coverage/
+
+# Docker
+docker-compose.override.yml
+*.dockerfile
+
+# Miscellaneous
+*.bak
+*.orig
+*.rej
+*.patch
+*.seed
+*.pid
+*.pid.lock
+
+# Custom Config's
+migrations/
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+/.vscode
